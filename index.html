@@ -2,42 +2,47 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ).">
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./assets/css/style.css">
   <title>Frontend Mentor | Profile card component</title>
 </head>
 <body>
-  <main>
-    <img class="pattern-card" src="./assets/images/bg-pattern-card.svg" alt="pattern image">
-    <img class="victor-image" src="./assets/images/image-victor.jpg" alt="Victor Crest image">
-    <div class="user-data-div">
-      <div>
-        <span class="name-span">Victor Crest</span>
-        <span class="age-span">26</span>
+  <main class="main">
+    <img class="main__img" src="./assets/images/bg-pattern-card.svg" alt="pattern image">
+    <div class="main__div main-div">
+      <img class="main-div__img" src="./assets/images/image-victor.jpg" alt="Victor Crest image">
+      <div class="main-div__div data-div">
+        <span class="data-div__span data-div__span--name">Victor Crest</span>
+        <span class="data-div__span data-div__span--age">26</span>
+        <span class="data-div__span data-div__span--city">London</span>
       </div> 
-      <span class="city-span">London</span>
     </div>
     <hr>
-    <div class="user-statistics-div">
-      <div class="statistics-div">
-        <span class="number-span">80K</span>
-        <span class="text-span">Followers</span>
+    <div class="main__div down-div">
+      <div class="down-div__div">
+        <span class="down-div__span down-div__span--number">80K</span>
+        <span class="down-div__span down-div__span--text">Followers</span>
       </div>
-      <div class="statistics-div">
-        <span class="number-span">803K</span>
-        <span class="text-span">Likes</span>
+      <div class="down-div__div">
+        <span class="down-div__span down-div__span--number">803K</span>
+        <span class="down-div__span down-div__span--text">Likes</span>
       </div>
-      <div class="statistics-div">
-        <span class="number-span">1.4K</span>
-        <span class="text-span">Photos</span>
+      <div class="down-div__div">
+        <span class="down-div__span down-div__span--number">1.4K</span>
+        <span class="down-div__span down-div__span--text">Photos</span>
       </div>
     </div>
   </main>
-  <footer>
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://www.frontendmentor.io/profile/smavilp">Sebastián Martínez Arango</a>.
+  <footer class="footer">
+    <span class="footer__span">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    </span>
+    <span class="footer__span">
+      Coded by <a href="https://www.frontendmentor.io/profile/smavilp">Sebastián Martínez Arango</a>.
+    </span>
   </footer>
 </body>
 </html>
